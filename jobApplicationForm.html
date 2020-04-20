@@ -156,14 +156,14 @@
 		</div>
 	</fieldset>
 
-	<fieldset class="form-horizontal" >
+	<fieldset>
 		<legend>Desired Salary</legend>
-		<div class="form-group">
+		<div class="field">
 			<label>What is your desired weekly salary?(Dollars * desired work hours per week)</label>
-			<form oninput="x.value=parseInt(a.value) + parseInt(b.value)">
+			<form oninput="x.value=parseInt(a.value) x parseInt(b.value)">
   
   			<input type="number" id="a" name="a" value="0">
- 			+
+ 			x
   			<input type="number" id="b" name="b" value="0">
   			=
   			<output name="x" for="a b"></output>
@@ -183,6 +183,17 @@
 			<textarea name="project" rows="6" cols="60"></textarea>
 		</div>
 	</fieldset>
+
+</fieldset>
+	<legend>Resume Submission</legend>
+	<div class="field">
+		<p>Please submit your resume</p><br>
+		<label for="files"> Select files:</label>
+		<input type="file" id="files" multiple> <br><br>
+		<input type="submit" value="Submit">
+
+	</div>
+
 
 	<input type="submit" value="Submit form">
 
