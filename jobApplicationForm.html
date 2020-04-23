@@ -164,12 +164,12 @@
 	<fieldset>
 		<legend>Desired Salary</legend>
 		<div class="field">
-			<label>What is your desired weekly salary?(Dollars * desired work hours per week)</label>
-			<form oninput="x.value=parseInt(a.value) x parseInt(b.value)">
+			<label>What is your desired weekly salary?(Dollars × desired work hours per week)</label>
+			<form oninput="x.value=parseInt(a.value) × parseInt(b.value)">0
   
-  			<input type="number" id="a" name="a" value="0">
- 			x
-  			<input type="number" id="b" name="b" value="0">
+  			<input type="range" id="a" value="0">100
+ 			×
+  			<input type="number" id="b" value="0">
   			=
   			<output name="x" for="a b"></output>
   			<br><br>
